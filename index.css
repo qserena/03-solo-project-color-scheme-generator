@@ -1,0 +1,41 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 550px;
+	margin: 0 auto;
+}
+
+header {
+	height: 90px;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+input#color-input {
+	width: 51px;
+	height: 34px;
+}
+
+button {
+	width: 123px;
+	height: 42px;
+}
+
+.colors {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+
+.color-part {
+	height: 414px;
+}
+
+.hex-part {
+	height: 46px;
+}
