@@ -2,6 +2,8 @@ html,
 body {
 	margin: 0;
 	padding: 0;
+	font-family: 'Inter', sans-serif;
+	box-sizing: border-box;
 }
 
 .container {
@@ -18,13 +20,48 @@ header {
 }
 
 input#color-input {
-	width: 51px;
-	height: 34px;
+	width: 61px;
+	height: 42px;
+}
+
+.modes {
+	width: 312px;
+	height: 42px;
+	display: inline-flex;
+	padding: 9px 16px 9px 13px;
+	justify-content: center;
+	align-items: center;
+	gap: 7px;
+	border-radius: 6px;
+	border: 1px solid var(--gray-300, #d1d5db);
+	background: var(--white, #fff);
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
 }
 
 button {
-	width: 123px;
+	width: 125px;
 	height: 42px;
+
+	display: inline-flex;
+	padding: 13px 11px;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 4px;
+	border: 1px solid var(--gray-300, #d1d5db);
+	background: var(--white, #fff);
+
+	/* shadow/sm */
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+
+	color: var(--gray-700, #374151);
+
+	/* text-xs/leading-4/font-medium */
+	font-family: Inter;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 16px; /* 133.333% */
 }
 
 .colors {
@@ -38,4 +75,12 @@ button {
 
 .hex-part {
 	height: 46px;
+	color: #2b283a;
+	text-align: center;
+	margin: 11px 0;
+	font-family: Inter;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px; /* 200% */
 }
