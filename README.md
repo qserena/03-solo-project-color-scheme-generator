@@ -1,7 +1,7 @@
 # Color Scheme Generator
 
 ## Description
-This Color Scheme Generator calls the [Color API](https://www.thecolorapi.com) and fetches a number of related colors, depending of the inputs set by the color control at the left, and the dropdown control in the middle.
+This Color Scheme Generator calls the Open Source [Color API](https://www.thecolorapi.com) and fetches a number of related colors, depending of the inputs set by the color control at the left, and the dropdown control in the middle.
 <br/>
 <br/>
 <img src="colors.png" alt="Screenshot." width="400px"/>
